@@ -25,4 +25,12 @@ a {
     cursor: pointer;
 }
 
-@import "./header.scss";
+.gift-button {
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px 24px;
+    text-transform: uppercase;
+}
+
+@import "./header";
+@import "./about";
