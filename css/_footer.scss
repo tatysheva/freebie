@@ -1,0 +1,31 @@
+footer {
+    background: #fafafa;
+}
+.footer__navigation {
+    padding: 100px 0 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    li {
+        margin-right: 44px;
+    }
+}
+
+.footer-logo {
+    color: #f7941e;
+    margin: 0 60px;
+}
+
+.social-icons {
+    display: block;
+    margin: auto;
+    padding: 55px 0 70px;
+}
+
+.privacy {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+}
