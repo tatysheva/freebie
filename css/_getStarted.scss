@@ -1,0 +1,41 @@
+.start-info {
+    background: #f7941e;
+}
+
+.get-started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 35px 69px 35px;
+}
+
+.get-started-buttons {
+    display: flex;
+    button {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+.get-started__title {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.get-started__subtitle {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.start-btn {
+    background: #231F20;
+    color: #ffffff;
+    margin-right: 15px;
+    border: none;
+}
+
+.info-btn {
+    border: 1px solid #000000;
+    background: transparent;
+}
