@@ -1,5 +1,8 @@
 #blog {
     padding: 88px 0 80px;
+    @include media-tablet {
+        padding: 60px 0 10px;
+    }
 }
 
 .blog__title {
@@ -13,6 +16,9 @@
     line-height: 24px;
     text-align: center;
     padding: 23px 0 70px;
+    @include media-tablet {
+        padding: 15px 0 30px;
+    }
 }
 
 .blog-content {
@@ -22,6 +28,10 @@
     background-color: #231f20;
     padding: 63px 0 50px 478px;
     color: #ffffff;
+    @include media-tablet {
+        padding: 43px 0 50px 378px;
+        background-size: 50%;
+    }
 }
 
 .blog-content__author {
@@ -31,41 +41,57 @@
 }
 
 .blog-content__title {
-    font-size: 48px;
+    font-size: 4.8rem;
     line-height: 58px;
     padding: 27px 0 60px;
+    @include media-tablet {
+        font-size: 2.8rem;
+        line-height: 38px;
+    }
 }
 
 .blog-content__info {
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     font-weight: 300;
+    @include media-tablet {
+        font-size: 1.5rem;
+    }
 }
 
 .primary-articles {
     display: flex;
-    :nth-child(1) {
-        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-    }
 }
 
 .blog-article {
     width: 50%;
     margin: 40px 30px 80px;
     padding: 48px 48px 50px 48px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    @include media-tablet {
+        margin: 40px 15px 50px;
+        padding: 28px 28px 30px 28px;
+    }
 }
 
-.log-article__title {
-    font-size: 24px;
+.blog-article__title {
+    font-size: 2.4rem;
     line-height: 34px;
+    @include media-tablet {
+        font-size: 2rem;
+        line-height: 24px;
+    }
 }
 
 .blog-article__description {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     padding: 16px 0;
+    @include media-tablet {
+        font-size: 1.5rem;
+    }
 }
 
 .blog-article__info {

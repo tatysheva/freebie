@@ -1,5 +1,8 @@
 #services {
     padding: 96px 0 137px;
+    @include media-tablet {
+        padding: 50px 0 70px;
+    }
 }
 
 .services__title {
@@ -13,6 +16,9 @@
     line-height: 24px;
     text-align: center;
     padding: 23px 0 64px;
+    @include media-tablet {
+        padding: 15px 0 30px;
+    }
 }
 
 .services-list {

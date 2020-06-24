@@ -7,6 +7,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 80px 35px 69px 35px;
+    @include media-tablet {
+        padding: 40px 0;
+    }
 }
 
 .get-started-buttons {
@@ -14,18 +17,30 @@
     button {
         width: 200px;
         height: 50px;
+        @include media-tablet {
+            width:  150px;
+            height: 40px;
+        }
     }
 }
 
 .get-started__title {
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 45px;
+    @include media-tablet {
+        font-size: 3rem;
+        line-height: 25px;
+    }
 }
 
 .get-started__subtitle {
     font-weight: 300;
     font-size: 32px;
     line-height: 45px;
+    @include media-tablet {
+        font-size: 3rem;
+        line-height: 45px;
+    }
 }
 
 .start-btn {
