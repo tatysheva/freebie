@@ -1,40 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-    font-size: 10px;
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0 auto;
-    font-size: 1.2rem;
-    font-family: "Lato", sans-serif;
-}
-
-.container {
-    width: 1020px;
-    margin: 0 auto;
-}
-
-button,
-a {
-    cursor: pointer;
-}
-
-.gift-button {
-    border-radius: 5px;
-    text-align: center;
-    padding: 13px 24px;
-    text-transform: uppercase;
-}
-
+@import "./constants";
+@import "./mixins";
 @import "./header";
 @import "./about";
 @import "./services";
 @import "./getStarted";
 @import "./blog";
-@import "./footer"
+@import "./footer";
+@import "./base";

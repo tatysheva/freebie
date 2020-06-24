@@ -16,6 +16,9 @@
     margin-left: 26px;
     font-style: normal;
     color: #000000;
+    @include media-tablet {
+        font-size: 1.5rem;
+    }
 }
 
 .logo {
