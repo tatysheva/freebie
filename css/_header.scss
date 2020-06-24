@@ -8,6 +8,7 @@
 .navigation {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .navigation__item {
@@ -19,6 +20,9 @@
     @include media-tablet {
         font-size: 1.5rem;
     }
+    @include media-mobile  {
+        font-size: 1.2rem;
+    } 
 }
 
 .logo {
@@ -32,4 +36,7 @@
     border: 1px solid #f7941e;
     color: #f7941e;
     background: #ffffff;
+    @include media-mobile {
+        display: none;
+    }
 }

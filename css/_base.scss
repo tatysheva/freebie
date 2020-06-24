@@ -24,6 +24,9 @@ body {
     @include media-tablet {
         width: 700px;
     }
+    @include media-mobile {
+        width: 340px;
+    }
 }
 
 button,
@@ -39,5 +42,8 @@ a {
     @include media-tablet {
         padding: 9px 20px;
         font-size: 1.2rem;
+    }
+    @include media-mobile {
+        padding: 5px 10px;
     }
 }

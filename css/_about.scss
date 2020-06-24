@@ -4,6 +4,9 @@
     background-repeat: no-repeat;
     background-size: 50%;
     background-color: #f1f1f2;
+    @include media-mobile {
+        background: none;
+    }
 }
 
 .about-content {
@@ -13,6 +16,9 @@
     }
     @include media-tablet {
         padding: 60px 400px 60px 0;
+    }
+    @include media-mobile {
+        padding: 20px 20px 20px 0;
     }
 }
 
@@ -58,6 +64,10 @@
     @include media-tablet {
         padding: 30px 80px 30px 450px;
     }
+    @include media-mobile {
+        background: none;
+        padding: 20px 20px 20px 0;
+    }
 }
 
 .about-description__title {
@@ -98,6 +108,10 @@
     padding: 10px 47px;
     @include media-tablet {
         padding: 8px 27px;
+        font-size: 1.2rem;
+    }
+    @include media-mobile {
+        padding: 5px 10px;
         font-size: 1.2rem;
     }
 }

@@ -10,6 +10,9 @@
     @include media-tablet {
         padding: 40px 0;
     }
+    @include media-mobile {
+        padding: 20px 0;
+    }
 }
 
 .get-started-buttons {
@@ -21,6 +24,15 @@
             width:  150px;
             height: 40px;
         }
+        @include media-mobile {
+            margin-bottom: 10px;
+            width:  130px;
+            height: 30px;
+        }
+    }
+    @include media-mobile {
+        flex-direction: column;
+        margin-left: 20px;
     }
 }
 
@@ -31,15 +43,23 @@
         font-size: 3rem;
         line-height: 25px;
     }
+    @include media-mobile {
+        font-size: 2rem;
+        line-height: 25px;
+    }
 }
 
 .get-started__subtitle {
     font-weight: 300;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 45px;
     @include media-tablet {
         font-size: 3rem;
         line-height: 45px;
+    }
+    @include media-mobile {
+        font-size: 1.8rem;
+        line-height: 25px;
     }
 }
 
